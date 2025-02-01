@@ -32,4 +32,32 @@ header,footer{
 a:hover{
     color:rgb(29, 2, 54)
 }
-
+section{
+    padding:20px;
+    text-align:center;
+}
+img{
+    width: 250px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgb(62, 62, 134);
+    object-fit:cover;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    text-aligin:center;
+}
+ul li{
+    display:inline-block;
+    background:rgb(134, 134, 185);
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(24, 24, 100);
+    margin: 0 5px;
+}
+form{
+    width:100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
